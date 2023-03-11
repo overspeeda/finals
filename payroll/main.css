@@ -1,0 +1,140 @@
+/* global style */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	height: 100vh;
+	font-size: 100%;
+	font-family: sans-serif;
+	color: #000;
+	vertical-align: middle;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 100px;
+	text-align: center;
+	margin: 10px 0px;
+}
+
+h2 {
+	font-size: 50px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+h3 {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+label {
+	font-size: 30px;
+	font-weight: normal;
+	display: inline-block;
+	margin: 10px;
+	vertical-align: middle;
+	
+}
+
+input[type="text"] {
+	width: 10%;
+	display: block;
+	border: 2px solid #000;
+	height: 30px;
+	vertical-align: middle;
+	margin-left: 50px;
+	font-size: 20px;
+}
+
+select {
+	border: 2px solid #000;
+	height: 30px;
+	font-size: 20px;
+	vertical-align: middle;
+}
+
+p {
+	font-weight: normal;
+	font-size: 50px;
+	letter-spacing: 10px;
+	margin-bottom: 20px;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.containerResult {
+	width: 80%;
+	margin: 30px auto;
+}
+
+button {
+	font-size: 30px;
+	text-align: center;
+	padding: 10px 50px;
+	color: #fff;
+	background-color: #6895D9;
+	border-radius: 50px;
+	margin-bottom: 50px;
+	margin-left: 70%;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #AECAF3;
+}
+
+header {
+	text-align: center;
+	margin-bottom: 90px;
+}
+
+/* for the personal info */
+
+.personalInfo {
+	background-color: rgb(54,170,245,.50);
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 6px;
+}
+
+#nameInfo {
+	width: 50%;
+}
+
+#contactNo {
+	width: 30%;
+}
+
+/* for the salary report */
+
+.salaryReport {
+	margin: 50px 0px;
+	background-color: rgb(174,177,32,.50);
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 6px;
+}
+
+/* for the result page */
+.containerResult {
+	background-color: rgb(125,168,123,.60);
+	color: rgb(51,51,51);
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 6px;
+}
+.containerResult h3 {
+	font-size: 20px;
+}
+
+.containerResult p {
+	font-size: 20px;
+	letter-spacing: 5px;
+}
